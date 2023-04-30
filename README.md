@@ -1,6 +1,12 @@
 # Movie-Maker-NewVersion
 A MERN Movie Maker App with GraphQL, ReactJS, MongoDB &amp; Apollo
 
+#######################################
+
+Use 2 DIFFERENT terminals for backend and frontend so they can keep running simultaneously.
+
+#######################################
+
 Steps to RUN the application:
 
 1- Download the ZIP file.
@@ -25,12 +31,5 @@ For Backend=====================================
     MONGODBURL=<paste your mongodb url here>
 
 9- npm run dev
-
-
-#######################################
-
-Use 2 DIFFERENT terminals for backend and frontend so they can keep running simultaneously.
-
-#######################################
 
 If you still have any issues, mail me at mohdraqif94@gmail.com
