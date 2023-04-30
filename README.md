@@ -27,7 +27,7 @@ For Backend=====================================
 
 7- Make a "config" folder inside "backend" folder to store all your credentials
 
-8- In the config folder, make a dev.env file which stores your MongoDB URL as follows:
+8- In the config folder, make a "dev.env" file which stores your MongoDB URL as follows:
     MONGODBURL=<paste your mongodb url here>
 
 9- npm run dev

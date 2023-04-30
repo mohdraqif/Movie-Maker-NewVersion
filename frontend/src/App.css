@@ -1,0 +1,139 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0a0c0ef8;
+}
+
+.topnav {
+  overflow: hidden;
+  height: 100px;
+  display: flex;
+  background-color: rgba(34, 32, 32, 0.599);
+}
+
+.topnav a {
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  color: #ddd;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.topnav .add-button {
+  float: right;
+  font-size: 20px;
+  text-align: center;
+  width: 130px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  text-decoration: none;
+  color: #0a0c0ef8;
+  background-color: #eee;
+}
+
+.movies{
+  margin: 20px 50px;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 400px;
+  margin: 30px;
+  color: #ffffff;
+  background: url('https://assets-prd.ignimgs.com/2023/02/08/jw4-2025x3000-online-character-1sht-keanu-v187-1675886090936.jpg?fit=bounds&width=1280&height=720') center/cover no-repeat;
+  filter: brightness(0.9);
+  transition: 0.1s ease-in-out;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow:   0px 2px 7px 1px #ddd;
+}
+
+/* The movie name inside the card container */
+.container {
+  filter: brightness(2);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-transform: capitalize;
+  background-color: rgba(21, 20, 20, 0.664);
+}
+
+.loading, .error, .no-movies {
+  text-align: center;
+  color: #ddd;
+  font-size: 23px;
+  margin: 150px;
+}
+
+.addMovie {
+  padding: 50px 100px;
+  background-color: #ccc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  flex: 1;
+}
+
+form input{
+  margin: 0 5px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  height: auto;
+  border: 0;
+  font-size: 15px;
+  margin: 5px;
+}
+
+form button {
+  cursor: pointer;
+  margin: 5px 10px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 0;
+  color: #eee;
+  background-color: #0a0c0ef8;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  margin:  10px;
+}
+
+.top-button{
+  color: #eee;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  height: auto;
+  background-color: #0a0c0ef8;
+}
+
+.footer {
+  background-color: rgba(34, 32, 32, 0.599);
+  left: 0;
+  bottom: 0;
+  color: #ddd;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+}
