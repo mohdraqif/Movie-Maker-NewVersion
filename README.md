@@ -1,6 +1,10 @@
 # Movie-Maker-NewVersion
 A MERN Movie Maker App with GraphQL, ReactJS, MongoDB &amp; Apollo
 
+![image](https://github.com/user-attachments/assets/bb89b63e-ca63-4cb1-808b-91ac3d9a069d)
+
+![image](https://github.com/user-attachments/assets/81750094-b888-444c-aa51-3ca01de61ef0)
+
 #######################################
 
 Use 2 DIFFERENT terminals for backend and frontend so they can keep running simultaneously.
